@@ -1,0 +1,88 @@
+/* 本样式集主要收录一些复杂的，复用性差的设定 */
+
+/* 复合型元素选择器 */
+
+body, h1, h2, h3, h4, h5 {
+    font-family: 'Long Cang', cursive;
+}
+
+h1, h2, h3, h4, h5 {
+    text-shadow: 2px 3px 5px green;
+}
+
+p {
+    font-size: large;
+}
+
+/* 键盘 kbd 标签样式 */
+
+kbd {
+    padding: 0.1em 0.6em;
+    border: 1px solid rgb(204, 204, 204);
+    font-size: 0.9rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(247, 247, 247);
+    background-image: linear-gradient(rgb(0, 200, 100, 0.7), rgb(255, 255, 255, 0.2));
+    color: rgb(51, 51, 52);
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.25), 0 2px 2px 1px rgb(255, 255, 255, 0.6) inset;
+    border-radius: 5em;
+    display: inline-block;
+    text-indent: 0;
+    margin: 0 0.1em;
+    text-shadow: 0 1px 0 rgb(27, 255, 255, 0.5);
+    line-height: 1.8rem;
+    white-space: nowrap;
+}
+
+pre {
+    display: inline-table;
+    white-space: pre-wrap !important;
+    word-break: break-word;
+    tab-size: 4;
+}
+
+aside {
+    width: 40%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+}
+
+aside>p {
+    margin: .5rem;
+}
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    /* margin: auto; */
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    /* font: italic smaller sans-serif; */
+    padding: 3px;
+    text-align: center;
+}
+
+
+
+/* header.page-header {
+    background: no-repeat left/cover url("../medias/banner/4.jpg");
+    align-items: center;
+    color: #fff;
+    text-shadow: #000 0 0 .2em;
+}
+
+header.page-header>h1 {
+    font: bold calc(1em + 2 * (100vw - 120px) / 100) 'Dancing Script', cursive, fantasy;
+    margin: 2%;
+} */

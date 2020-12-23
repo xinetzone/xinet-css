@@ -1,0 +1,35 @@
+main, article, code {
+    filter: drop-shadow(8px 8px 10px rgba(141, 109, 109, 0.75))
+}
+
+nav {
+    /* 为导航栏添加下边界 */
+    border-bottom: 1px solid whitesmoke;
+}
+
+.main-nav {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav a {
+    padding: .3em 1em;
+    display: block;
+    text-decoration: none;
+}
+
+.fa i {
+    right: 2em;
+    margin-left: 2em;
+}
+
+.push {
+    margin-left: auto;
+}
+
+.text-indent {
+    /* 段落首行缩进 */
+    text-indent: 2em;
+}

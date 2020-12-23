@@ -7,6 +7,10 @@ nav {
     border-bottom: 1px solid whitesmoke;
 }
 
+ul, ol {
+    line-height: 80%; /* 保证列表对象紧凑排列 */
+}
+
 .main-nav {
     display: flex;
     margin: 0;

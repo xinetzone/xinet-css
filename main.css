@@ -8,8 +8,8 @@ nav {
     padding: 1rem, 1rem, 1rem, 1rem
 }
 
-ul, ol {
-    line-height: 90%; /* 保证列表对象紧凑排列 */
+.list-compact {
+    line-height: 80%; /* 保证列表对象紧凑排列 */
 }
 
 .main-nav {

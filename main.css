@@ -4,11 +4,11 @@ main, article, code {
 
 nav {
     /* 为导航栏添加下边界 */
-    border-bottom: 1px solid whitesmoke;
+    border-bottom: 2px solid whitesmoke;
 }
 
 ul, ol {
-    line-height: 80%; /* 保证列表对象紧凑排列 */
+    line-height: 90%; /* 保证列表对象紧凑排列 */
 }
 
 .main-nav {

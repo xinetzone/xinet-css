@@ -5,7 +5,7 @@ main, article, code {
 nav {
     /* 为导航栏添加下边界 */
     border-bottom: 1px solid whitesmoke;
-    padding: 1rem, 1rem, 1rem, 1rem
+    padding: 0.1rem
 }
 
 .list-compact {
